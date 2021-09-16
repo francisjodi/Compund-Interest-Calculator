@@ -1,0 +1,76 @@
+body {
+  font-family: "tahoma";
+  color: black;
+  background-image: url(https://img.freepik.com/free-photo/top-view-blue-calculator-notepad-color-background_260672-4055.jpg?size=626&ext=jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin:0;
+  display: grid;
+}
+
+h1{
+  font-family: "impact";
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  text-shadow: -1px 10px 10px violet;
+  transition-property: font-size;
+  transition-duration: 1s; 
+  animation: skew 3s infinite;
+  animation-direction: alternate;
+  transform: skew(20deg);
+}
+
+h1:hover{
+  font-size:80px;
+  transform: rotateY(60deg);
+  transform-style: preserve-3d;
+}
+
+#calculator{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 100px 200px;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+p{
+  font-family: "impact";
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  text-shadow: -1px 10px 10px violet;
+  border-style: dotted dashed solid double;
+
+}
+
+footer{
+  text-align: center;
+  position: fixed;      
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/ 
+  height: 30px;
+  background: violet;
+  color: black;
+  padding: 5px;
+}
+img {
+  border-radius: 8px;  
+  position: absolute;
+  right: 10%;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
