@@ -3,7 +3,7 @@ Calculate your yearly compund interest
 https://homework1-compound-interest.erikaproctor.repl.co/
 
 ## Description
-An in-depth paragraph about your project and overview of use.
+This is a static website for computing compound interest. The user will input the principal amount, interest rate (as a percent), number of times compounded per year, and the total number of years. After all of the fields have a value, the compound interest will be displayed automatically.
 
 ## Authors
 Erika Proctor  & Jodi-Ann Francis
