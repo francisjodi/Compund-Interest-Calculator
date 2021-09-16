@@ -55,7 +55,7 @@ footer{
   bottom: 0;
   width: 100%;
   /* Height of the footer*/ 
-  height: 30px;
+  height: 40px;
   background: violet;
   color: black;
   padding: 5px;
@@ -63,7 +63,7 @@ footer{
 img {
   border-radius: 8px;  
   position: absolute;
-  right: 10%;
+  right: 5%;
 }
 
 @keyframes skew {
