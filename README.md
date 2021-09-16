@@ -8,5 +8,5 @@ An in-depth paragraph about your project and overview of use.
 Erika Proctor  & Jodi-Ann Francis
 
 ## Acknowledgments
-Professor: Ray Toal 
-W3Schools 
+*Professor: Ray Toal 
+*W3Schools 
