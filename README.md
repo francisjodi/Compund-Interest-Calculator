@@ -9,5 +9,5 @@ This is a static website for computing compound interest. The user will input th
 Erika Proctor  & Jodi-Ann Francis
 
 ## Acknowledgments
-*Professor: Ray Toal 
-*W3Schools 
+* Professor: Ray Toal 
+* W3Schools 
